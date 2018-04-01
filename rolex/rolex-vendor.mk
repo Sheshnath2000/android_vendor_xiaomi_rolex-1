@@ -233,8 +233,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
     vendor/xiaomi/rolex/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/xiaomi/rolex/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
-    vendor/xiaomi/rolex/proprietary/lib/modules/core_ctl.ko:system/lib/modules/core_ctl.ko \
-    vendor/xiaomi/rolex/proprietary/lib/modules/pronto/pronto_wlan.ko:system/lib/modules/pronto/pronto_wlan.ko \
     vendor/xiaomi/rolex/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/rolex/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/xiaomi/rolex/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
