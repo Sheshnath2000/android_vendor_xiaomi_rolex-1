@@ -103,37 +103,67 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/xiaomi/rolex/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/xiaomi/rolex/proprietary/etc/cacert_location.pem:system/etc/cacert_location.pem \
+    vendor/xiaomi/rolex/proprietary/etc/camera/camera_config.xml:system/etc/camera/camera_config.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/csidtg_camera.xml:system/etc/camera/csidtg_camera.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/csidtg_chromatix.xml:system/etc/camera/csidtg_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/imx214_chromatix.xml:system/etc/camera/imx214_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/imx230_chromatix.xml:system/etc/camera/imx230_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/imx230_qc2002_chromatix.xml:system/etc/camera/imx230_qc2002_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/imx230_qc2002_with_gyro_chromatix.xml:system/etc/camera/imx230_qc2002_with_gyro_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/imx258_bear_chromatix.xml:system/etc/camera/imx258_bear_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/imx258_chromatix.xml:system/etc/camera/imx258_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/imx258_mono_bear_chromatix.xml:system/etc/camera/imx258_mono_bear_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/imx258_mono_chromatix.xml:system/etc/camera/imx258_mono_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/imx298_chromatix.xml:system/etc/camera/imx298_chromatix.xml \
-    vendor/xiaomi/rolex/proprietary/etc/camera/msm8937_camera.xml:system/etc/camera/msm8937_camera.xml \
-    vendor/xiaomi/rolex/proprietary/etc/camera/msm8952_camera.xml:system/etc/camera/msm8952_camera.xml \
-    vendor/xiaomi/rolex/proprietary/etc/camera/msm8953_camera.xml:system/etc/camera/msm8953_camera.xml \
-    vendor/xiaomi/rolex/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/imx298_gt24c64_chromatix.xml:system/etc/camera/imx298_gt24c64_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/imx318_chromatix.xml:system/etc/camera/imx318_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/imx362_chromatix.xml:system/etc/camera/imx362_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/imx362_chromatix_bear.xml:system/etc/camera/imx362_chromatix_bear.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/imx378_chromatix.xml:system/etc/camera/imx378_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/ov13850_chromatix.xml:system/etc/camera/ov13850_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/ov13850_q13v06k_chromatix.xml:system/etc/camera/ov13850_q13v06k_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/ov13855_qtech_chromatix.xml:system/etc/camera/ov13855_qtech_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/ov13855_qtech_india_chromatix.xml:system/etc/camera/ov13855_qtech_india_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/ov13855_sunny_chromatix.xml:system/etc/camera/ov13855_sunny_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/ov2281_chromatix.xml:system/etc/camera/ov2281_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/ov2680_chromatix.xml:system/etc/camera/ov2680_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/ov4688_chromatix.xml:system/etc/camera/ov4688_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/ov5670_chromatix.xml:system/etc/camera/ov5670_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/ov5670_f5670bq_chromatix.xml:system/etc/camera/ov5670_f5670bq_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/ov5675_d5v15b_chromatix.xml:system/etc/camera/ov5675_d5v15b_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/ov5675_ofilm_chromatix.xml:system/etc/camera/ov5675_ofilm_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/ov5695_chromatix.xml:system/etc/camera/ov5695_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/ov7251_chromatix.xml:system/etc/camera/ov7251_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/ov8858_chromatix.xml:system/etc/camera/ov8858_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
-    vendor/xiaomi/rolex/proprietary/etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/ovt_ov12a10_i_chromatix.xml:system/etc/camera/ovt_ov12a10_i_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/ovt_ov5675_i_chromatix.xml:system/etc/camera/ovt_ov5675_i_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/ovt_ov5675_ii_chromatix.xml:system/etc/camera/ovt_ov5675_ii_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/rosy_imx486_sunny_india_chromatix.xml:system/etc/camera/rosy_imx486_sunny_india_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/rosy_ov12a10_ofilm_india_chromatix.xml:system/etc/camera/rosy_ov12a10_ofilm_india_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/rosy_ov5675_ofilm_india_chromatix.xml:system/etc/camera/rosy_ov5675_ofilm_india_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/rosy_ov5675_qtech_india_chromatix.xml:system/etc/camera/rosy_ov5675_qtech_india_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/s5k2l7_8953_chromatix.xml:system/etc/camera/s5k2l7_8953_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/s5k2l7_chromatix.xml:system/etc/camera/s5k2l7_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/s5k3l2_chromatix.xml:system/etc/camera/s5k3l2_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/s5k3l8_chromatix.xml:system/etc/camera/s5k3l8_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/s5k3l8_mono_chromatix.xml:system/etc/camera/s5k3l8_mono_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/s5k3l8_ofilm_chromatix.xml:system/etc/camera/s5k3l8_ofilm_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/s5k3l8_ofilm_riva_chromatix.xml:system/etc/camera/s5k3l8_ofilm_riva_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/s5k3l8_ofilm_riva_india_chromatix.xml:system/etc/camera/s5k3l8_ofilm_riva_india_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/s5k3m2xm_chromatix.xml:system/etc/camera/s5k3m2xm_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/s5k3m2xm_chromatix_bear.xml:system/etc/camera/s5k3m2xm_chromatix_bear.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/s5k3m2xx_chromatix.xml:system/etc/camera/s5k3m2xx_chromatix.xml \
-    vendor/xiaomi/rolex/proprietary/etc/camera/s5k4h8_chromatix.xml:system/etc/camera/s5k4h8_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/s5k3p3sm_chromatix.xml:system/etc/camera/s5k3p3sm_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/s5k5e8_chromatix.xml:system/etc/camera/s5k5e8_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/camera/s5k5e8_ofilm_chromatix.xml:system/etc/camera/s5k5e8_ofilm_chromatix.xml \
-    vendor/xiaomi/rolex/proprietary/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/s5k5e8_ofilm_riva_chromatix.xml:system/etc/camera/s5k5e8_ofilm_riva_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/s5k5e8_ofilm_riva_india_chromatix.xml:system/etc/camera/s5k5e8_ofilm_riva_india_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/s5k5e8_qtech_riva_chromatix.xml:system/etc/camera/s5k5e8_qtech_riva_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/s5k5e8_qtech_riva_india_chromatix.xml:system/etc/camera/s5k5e8_qtech_riva_india_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/s5k5e8_sunny_chromatix.xml:system/etc/camera/s5k5e8_sunny_chromatix.xml \
+    vendor/xiaomi/rolex/proprietary/etc/camera/sony_imx486_ii_chromatix.xml:system/etc/camera/sony_imx486_ii_chromatix.xml \
     vendor/xiaomi/rolex/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/xiaomi/rolex/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/xiaomi/rolex/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
@@ -207,42 +237,31 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/xiaomi/rolex/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/xiaomi/rolex/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/xiaomi/rolex/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/rolex/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/rolex/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/rolex/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
     vendor/xiaomi/rolex/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/xiaomi/rolex/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
-    vendor/xiaomi/rolex/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
     vendor/xiaomi/rolex/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/xiaomi/rolex/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/rolex/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/xiaomi/rolex/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/xiaomi/rolex/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
-    vendor/xiaomi/rolex/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/xiaomi/rolex/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/xiaomi/rolex/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/xiaomi/rolex/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
-    vendor/xiaomi/rolex/proprietary/lib/libmorpho_panorama.so:system/lib/libmorpho_panorama.so \
     vendor/xiaomi/rolex/proprietary/lib/libOmxSwVdec.so:system/lib/libOmxSwVdec.so \
     vendor/xiaomi/rolex/proprietary/lib/libOmxSwVencMpeg4.so:system/lib/libOmxSwVencMpeg4.so \
     vendor/xiaomi/rolex/proprietary/lib/libOmxVdec.so:system/lib/libOmxVdec.so \
     vendor/xiaomi/rolex/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/xiaomi/rolex/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/xiaomi/rolex/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/xiaomi/rolex/proprietary/lib/libshims_camera.so:system/lib/libshims_camera.so \
-    vendor/xiaomi/rolex/proprietary/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
-    vendor/xiaomi/rolex/proprietary/lib/libstagefright_soft_flacdec.so:system/lib/libstagefright_soft_flacdec.so \
     vendor/xiaomi/rolex/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/xiaomi/rolex/proprietary/lib/soundfx/libdirac.so:system/lib/soundfx/libdirac.so \
     vendor/xiaomi/rolex/proprietary/lib64/hw/consumerir.default.so:system/lib64/hw/consumerir.default.so \
     vendor/xiaomi/rolex/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/xiaomi/rolex/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/xiaomi/rolex/proprietary/lib64/libmm-omxcore.so:system/lib64/libmm-omxcore.so \
     vendor/xiaomi/rolex/proprietary/lib64/libOmxSwVdec.so:system/lib64/libOmxSwVdec.so \
     vendor/xiaomi/rolex/proprietary/lib64/libOmxSwVencMpeg4.so:system/lib64/libOmxSwVencMpeg4.so \
     vendor/xiaomi/rolex/proprietary/lib64/libOmxVdec.so:system/lib64/libOmxVdec.so \
     vendor/xiaomi/rolex/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
-    vendor/xiaomi/rolex/proprietary/lib64/libstagefright_omx.so:system/lib64/libstagefright_omx.so \
     vendor/xiaomi/rolex/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/xiaomi/rolex/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
     vendor/xiaomi/rolex/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
@@ -278,15 +297,21 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_ak7345.so:system/vendor/lib/libactuator_ak7345.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_ak7371.so:system/vendor/lib/libactuator_ak7371.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_bu64244gwz.so:system/vendor/lib/libactuator_bu64244gwz.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_bu64291gwz.so:system/vendor/lib/libactuator_bu64291gwz.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_bu64297.so:system/vendor/lib/libactuator_bu64297.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_dw9714.so:system/vendor/lib/libactuator_dw9714.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_dw9714_s5k3l8_riva.so:system/vendor/lib/libactuator_dw9714_s5k3l8_riva.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_dw9716.so:system/vendor/lib/libactuator_dw9716.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_dw9761b.so:system/vendor/lib/libactuator_dw9761b.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_dw9763_ov13855.so:system/vendor/lib/libactuator_dw9763_ov13855.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_dw9763_sony_imx486_ii.so:system/vendor/lib/libactuator_dw9763_sony_imx486_ii.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_fp5510e2_ov13855.so:system/vendor/lib/libactuator_fp5510e2_ov13855.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_lc898212xd.so:system/vendor/lib/libactuator_lc898212xd.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_lc898212xd_qc2002.so:system/vendor/lib/libactuator_lc898212xd_qc2002.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_ovt_ov12a10_i_dw9763.so:system/vendor/lib/libactuator_ovt_ov12a10_i_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_pseudo.so:system/vendor/lib/libactuator_pseudo.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libadm.so:system/vendor/lib/libadm.so \
@@ -299,7 +324,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so:system/vendor/lib/libaptXHD-1.0.0-rel-Android21-ARMv7A.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libaptXScheduler.so:system/vendor/lib/libaptXScheduler.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libarcsoft_beauty_shot.so:system/vendor/lib/libarcsoft_beauty_shot.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
@@ -361,7 +385,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx230_cpp_preview.so:system/vendor/lib/libchromatix_imx230_cpp_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx230_cpp_raw_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_raw_hdr.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot_downscale.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot_downscale.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot_hdr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx230_cpp_snapshot_upscale.so:system/vendor/lib/libchromatix_imx230_cpp_snapshot_upscale.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx230_cpp_video.so:system/vendor/lib/libchromatix_imx230_cpp_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx230_cpp_video_4k.so:system/vendor/lib/libchromatix_imx230_cpp_video_4k.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx230_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx230_cpp_video_hdr.so \
@@ -467,8 +493,34 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx230_video_hdr.so:system/vendor/lib/libchromatix_imx230_video_hdr.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx230_zsl_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx230_zsl_preview_lc898212xd.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx230_zsl_video_lc898212xd.so:system/vendor/lib/libchromatix_imx230_zsl_video_lc898212xd.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_4k_preview_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_4k_preview_bu64244gwz.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_4k_video_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_4k_video_bu64244gwz.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_4k_preview_3a.so:system/vendor/lib/libchromatix_imx258_4k_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_4k_video_3a.so:system/vendor/lib/libchromatix_imx258_4k_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_4k_preview_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_4k_preview_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_4k_video_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_4k_video_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_common.so:system/vendor/lib/libchromatix_imx258_bear_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx258_bear_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx258_bear_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx258_bear_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_liveshot.so:system/vendor/lib/libchromatix_imx258_bear_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_preview.so:system/vendor/lib/libchromatix_imx258_bear_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_snapshot.so:system/vendor/lib/libchromatix_imx258_bear_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_video.so:system/vendor/lib/libchromatix_imx258_bear_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_cpp_video_4k.so:system/vendor/lib/libchromatix_imx258_bear_cpp_video_4k.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_default_preview_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_default_preview_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_default_video.so:system/vendor/lib/libchromatix_imx258_bear_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_default_video_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_default_video_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_hfr_120.so:system/vendor/lib/libchromatix_imx258_bear_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_hfr_120_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_hfr_120_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_hfr_60.so:system/vendor/lib/libchromatix_imx258_bear_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_hfr_60_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_hfr_60_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_hfr_90.so:system/vendor/lib/libchromatix_imx258_bear_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_hfr_90_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_hfr_90_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_postproc.so:system/vendor/lib/libchromatix_imx258_bear_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_preview.so:system/vendor/lib/libchromatix_imx258_bear_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_snapshot.so:system/vendor/lib/libchromatix_imx258_bear_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_video_4k.so:system/vendor/lib/libchromatix_imx258_bear_video_4k.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_zsl_preview_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_zsl_preview_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_bear_zsl_video_lc898217xc.so:system/vendor/lib/libchromatix_imx258_bear_zsl_video_lc898217xc.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_common.so:system/vendor/lib/libchromatix_imx258_common.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx258_cpp_hfr_120.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx258_cpp_hfr_60.so \
@@ -478,17 +530,43 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_cpp_snapshot.so:system/vendor/lib/libchromatix_imx258_cpp_snapshot.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_cpp_video.so:system/vendor/lib/libchromatix_imx258_cpp_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_cpp_video_4k.so:system/vendor/lib/libchromatix_imx258_cpp_video_4k.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_default_preview_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_default_preview_bu64244gwz.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_default_preview_3a.so:system/vendor/lib/libchromatix_imx258_default_preview_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_default_video.so:system/vendor/lib/libchromatix_imx258_default_video.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_default_video_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_default_video_bu64244gwz.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_default_video_3a.so:system/vendor/lib/libchromatix_imx258_default_video_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_hfr_120.so:system/vendor/lib/libchromatix_imx258_hfr_120.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_hfr_120_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_hfr_120_bu64244gwz.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_hfr_120_3a.so:system/vendor/lib/libchromatix_imx258_hfr_120_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_hfr_60.so:system/vendor/lib/libchromatix_imx258_hfr_60.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_hfr_60_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_hfr_60_bu64244gwz.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_hfr_60_3a.so:system/vendor/lib/libchromatix_imx258_hfr_60_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_hfr_90.so:system/vendor/lib/libchromatix_imx258_hfr_90.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_hfr_90_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_hfr_90_bu64244gwz.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_4k_preview_ak7371.so:system/vendor/lib/libchromatix_imx258_mono_4k_preview_ak7371.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_4k_video_ak7371.so:system/vendor/lib/libchromatix_imx258_mono_4k_video_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_hfr_90_3a.so:system/vendor/lib/libchromatix_imx258_hfr_90_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_4k_preview_3a.so:system/vendor/lib/libchromatix_imx258_mono_4k_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_4k_video_3a.so:system/vendor/lib/libchromatix_imx258_mono_4k_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_4k_preview_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_4k_preview_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_4k_video_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_4k_video_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_common.so:system/vendor/lib/libchromatix_imx258_mono_bear_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_liveshot.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_preview.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_snapshot.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_video.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_cpp_video_4k.so:system/vendor/lib/libchromatix_imx258_mono_bear_cpp_video_4k.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_default_preview_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_default_preview_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_default_video.so:system/vendor/lib/libchromatix_imx258_mono_bear_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_default_video_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_default_video_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_hfr_120.so:system/vendor/lib/libchromatix_imx258_mono_bear_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_hfr_120_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_hfr_120_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_hfr_60.so:system/vendor/lib/libchromatix_imx258_mono_bear_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_hfr_60_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_hfr_60_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_hfr_90.so:system/vendor/lib/libchromatix_imx258_mono_bear_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_hfr_90_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_hfr_90_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_postproc.so:system/vendor/lib/libchromatix_imx258_mono_bear_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_preview.so:system/vendor/lib/libchromatix_imx258_mono_bear_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_snapshot.so:system/vendor/lib/libchromatix_imx258_mono_bear_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_video_4k.so:system/vendor/lib/libchromatix_imx258_mono_bear_video_4k.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_zsl_preview_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_zsl_preview_lc898217xc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_bear_zsl_video_lc898217xc.so:system/vendor/lib/libchromatix_imx258_mono_bear_zsl_video_lc898217xc.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_common.so:system/vendor/lib/libchromatix_imx258_mono_common.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx258_mono_cpp_hfr_120.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx258_mono_cpp_hfr_60.so \
@@ -498,27 +576,27 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_cpp_snapshot.so:system/vendor/lib/libchromatix_imx258_mono_cpp_snapshot.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_cpp_video.so:system/vendor/lib/libchromatix_imx258_mono_cpp_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_cpp_video_4k.so:system/vendor/lib/libchromatix_imx258_mono_cpp_video_4k.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_default_preview_ak7371.so:system/vendor/lib/libchromatix_imx258_mono_default_preview_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_default_preview_3a.so:system/vendor/lib/libchromatix_imx258_mono_default_preview_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_default_video.so:system/vendor/lib/libchromatix_imx258_mono_default_video.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_default_video_ak7371.so:system/vendor/lib/libchromatix_imx258_mono_default_video_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_default_video_3a.so:system/vendor/lib/libchromatix_imx258_mono_default_video_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_hfr_120.so:system/vendor/lib/libchromatix_imx258_mono_hfr_120.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_hfr_120_ak7371.so:system/vendor/lib/libchromatix_imx258_mono_hfr_120_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_hfr_120_3a.so:system/vendor/lib/libchromatix_imx258_mono_hfr_120_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_hfr_60.so:system/vendor/lib/libchromatix_imx258_mono_hfr_60.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_hfr_60_ak7371.so:system/vendor/lib/libchromatix_imx258_mono_hfr_60_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_hfr_60_3a.so:system/vendor/lib/libchromatix_imx258_mono_hfr_60_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_hfr_90.so:system/vendor/lib/libchromatix_imx258_mono_hfr_90.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_hfr_90_ak7371.so:system/vendor/lib/libchromatix_imx258_mono_hfr_90_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_hfr_90_3a.so:system/vendor/lib/libchromatix_imx258_mono_hfr_90_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_postproc.so:system/vendor/lib/libchromatix_imx258_mono_postproc.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_preview.so:system/vendor/lib/libchromatix_imx258_mono_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_snapshot.so:system/vendor/lib/libchromatix_imx258_mono_snapshot.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_video_4k.so:system/vendor/lib/libchromatix_imx258_mono_video_4k.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_zsl_preview_ak7371.so:system/vendor/lib/libchromatix_imx258_mono_zsl_preview_ak7371.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_zsl_video_ak7371.so:system/vendor/lib/libchromatix_imx258_mono_zsl_video_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_zsl_preview_3a.so:system/vendor/lib/libchromatix_imx258_mono_zsl_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_mono_zsl_video_3a.so:system/vendor/lib/libchromatix_imx258_mono_zsl_video_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_postproc.so:system/vendor/lib/libchromatix_imx258_postproc.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_preview.so:system/vendor/lib/libchromatix_imx258_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_snapshot.so:system/vendor/lib/libchromatix_imx258_snapshot.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_video_4k.so:system/vendor/lib/libchromatix_imx258_video_4k.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_zsl_preview_bu64244gwz.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_zsl_video_bu64244gwz.so:system/vendor/lib/libchromatix_imx258_zsl_video_bu64244gwz.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_zsl_preview_3a.so:system/vendor/lib/libchromatix_imx258_zsl_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx258_zsl_video_3a.so:system/vendor/lib/libchromatix_imx258_zsl_video_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_4K_preview.so:system/vendor/lib/libchromatix_imx298_4K_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_4K_video.so:system/vendor/lib/libchromatix_imx298_4K_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_common.so:system/vendor/lib/libchromatix_imx298_common.so \
@@ -533,6 +611,36 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx298_cpp_video_hdr.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_default_preview.so:system/vendor/lib/libchromatix_imx298_default_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_default_video.so:system/vendor/lib/libchromatix_imx298_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_4K_preview.so:system/vendor/lib/libchromatix_imx298_gt24c64_4K_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_4K_video.so:system/vendor/lib/libchromatix_imx298_gt24c64_4K_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_common.so:system/vendor/lib/libchromatix_imx298_gt24c64_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_liveshot.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_preview.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_snapshot.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_snapshot_hdr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_video.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx298_gt24c64_cpp_video_hdr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_default_preview.so:system/vendor/lib/libchromatix_imx298_gt24c64_default_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_default_video.so:system/vendor/lib/libchromatix_imx298_gt24c64_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx298_gt24c64_hdr_snapshot_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hdr_video_3a.so:system/vendor/lib/libchromatix_imx298_gt24c64_hdr_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hfr_120.so:system/vendor/lib/libchromatix_imx298_gt24c64_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hfr_120_3a.so:system/vendor/lib/libchromatix_imx298_gt24c64_hfr_120_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hfr_60.so:system/vendor/lib/libchromatix_imx298_gt24c64_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hfr_60_3a.so:system/vendor/lib/libchromatix_imx298_gt24c64_hfr_60_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hfr_90.so:system/vendor/lib/libchromatix_imx298_gt24c64_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_hfr_90_3a.so:system/vendor/lib/libchromatix_imx298_gt24c64_hfr_90_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_postproc.so:system/vendor/lib/libchromatix_imx298_gt24c64_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_preview.so:system/vendor/lib/libchromatix_imx298_gt24c64_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_snapshot.so:system/vendor/lib/libchromatix_imx298_gt24c64_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_snapshot_hdr.so:system/vendor/lib/libchromatix_imx298_gt24c64_snapshot_hdr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_video.so:system/vendor/lib/libchromatix_imx298_gt24c64_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_video_hdr.so:system/vendor/lib/libchromatix_imx298_gt24c64_video_hdr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_zsl_preview.so:system/vendor/lib/libchromatix_imx298_gt24c64_zsl_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_gt24c64_zsl_video.so:system/vendor/lib/libchromatix_imx298_gt24c64_zsl_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx298_hdr_snapshot_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_hdr_video_3a.so:system/vendor/lib/libchromatix_imx298_hdr_video_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx298_hfr_120.so:system/vendor/lib/libchromatix_imx298_hfr_120.so \
@@ -555,6 +663,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_4k_video_lc898212xd.so:system/vendor/lib/libchromatix_imx318_4k_video_lc898212xd.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_common.so:system/vendor/lib/libchromatix_imx318_common.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx318_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx318_cpp_hfr_240.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx318_cpp_hfr_60.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_cpp_liveshot.so:system/vendor/lib/libchromatix_imx318_cpp_liveshot.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_cpp_preview.so:system/vendor/lib/libchromatix_imx318_cpp_preview.so \
@@ -562,17 +671,124 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_cpp_video.so:system/vendor/lib/libchromatix_imx318_cpp_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_cpp_video_4k.so:system/vendor/lib/libchromatix_imx318_cpp_video_4k.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_default_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx318_default_preview_lc898212xd.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_default_video.so:system/vendor/lib/libchromatix_imx318_default_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_default_video_lc898212xd.so:system/vendor/lib/libchromatix_imx318_default_video_lc898212xd.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_fullsize_preview_lc898212xd.so:system/vendor/lib/libchromatix_imx318_fullsize_preview_lc898212xd.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_fullsize_video_lc898212xd.so:system/vendor/lib/libchromatix_imx318_fullsize_video_lc898212xd.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_hfr_120.so:system/vendor/lib/libchromatix_imx318_hfr_120.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_hfr_120_lc898212xd.so:system/vendor/lib/libchromatix_imx318_hfr_120_lc898212xd.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_hfr_240.so:system/vendor/lib/libchromatix_imx318_hfr_240.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_hfr_240_lc898212xd.so:system/vendor/lib/libchromatix_imx318_hfr_240_lc898212xd.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_hfr_60.so:system/vendor/lib/libchromatix_imx318_hfr_60.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_hfr_60_lc898212xd.so:system/vendor/lib/libchromatix_imx318_hfr_60_lc898212xd.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_postproc.so:system/vendor/lib/libchromatix_imx318_postproc.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_preview.so:system/vendor/lib/libchromatix_imx318_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_snapshot.so:system/vendor/lib/libchromatix_imx318_snapshot.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx318_video_4k.so:system/vendor/lib/libchromatix_imx318_video_4k.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_1080p_preview_3a.so:system/vendor/lib/libchromatix_imx362_1080p_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_1080p_preview_3a_bear.so:system/vendor/lib/libchromatix_imx362_1080p_preview_3a_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_1080p_video_3a.so:system/vendor/lib/libchromatix_imx362_1080p_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_1080p_video_3a_bear.so:system/vendor/lib/libchromatix_imx362_1080p_video_3a_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_4k_preview_3a.so:system/vendor/lib/libchromatix_imx362_4k_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_4k_preview_3a_bear.so:system/vendor/lib/libchromatix_imx362_4k_preview_3a_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_4k_video_3a.so:system/vendor/lib/libchromatix_imx362_4k_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_4k_video_3a_bear.so:system/vendor/lib/libchromatix_imx362_4k_video_3a_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_common.so:system/vendor/lib/libchromatix_imx362_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_common_bear.so:system/vendor/lib/libchromatix_imx362_common_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx362_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_120_bear.so:system/vendor/lib/libchromatix_imx362_cpp_hfr_120_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx362_cpp_hfr_240.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_240_bear.so:system/vendor/lib/libchromatix_imx362_cpp_hfr_240_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx362_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_hfr_60_bear.so:system/vendor/lib/libchromatix_imx362_cpp_hfr_60_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_liveshot.so:system/vendor/lib/libchromatix_imx362_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_liveshot_bear.so:system/vendor/lib/libchromatix_imx362_cpp_liveshot_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_preview.so:system/vendor/lib/libchromatix_imx362_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_preview_bear.so:system/vendor/lib/libchromatix_imx362_cpp_preview_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_snapshot.so:system/vendor/lib/libchromatix_imx362_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_snapshot_bear.so:system/vendor/lib/libchromatix_imx362_cpp_snapshot_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_snapshot_downscale_bear.so:system/vendor/lib/libchromatix_imx362_cpp_snapshot_downscale_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx362_cpp_snapshot_hdr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_snapshot_hdr_bear.so:system/vendor/lib/libchromatix_imx362_cpp_snapshot_hdr_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_snapshot_upscale_bear.so:system/vendor/lib/libchromatix_imx362_cpp_snapshot_upscale_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_video.so:system/vendor/lib/libchromatix_imx362_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_video_4k.so:system/vendor/lib/libchromatix_imx362_cpp_video_4k.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_video_4k_bear.so:system/vendor/lib/libchromatix_imx362_cpp_video_4k_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_video_bear.so:system/vendor/lib/libchromatix_imx362_cpp_video_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx362_cpp_video_hdr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_cpp_video_hdr_bear.so:system/vendor/lib/libchromatix_imx362_cpp_video_hdr_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_default_preview_3a.so:system/vendor/lib/libchromatix_imx362_default_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_default_preview_3a_bear.so:system/vendor/lib/libchromatix_imx362_default_preview_3a_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_default_video.so:system/vendor/lib/libchromatix_imx362_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_default_video_3a.so:system/vendor/lib/libchromatix_imx362_default_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_default_video_3a_bear.so:system/vendor/lib/libchromatix_imx362_default_video_3a_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_default_video_bear.so:system/vendor/lib/libchromatix_imx362_default_video_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_fullsize_preview_3a.so:system/vendor/lib/libchromatix_imx362_fullsize_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_fullsize_preview_3a_bear.so:system/vendor/lib/libchromatix_imx362_fullsize_preview_3a_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_fullsize_video_3a.so:system/vendor/lib/libchromatix_imx362_fullsize_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_fullsize_video_3a_bear.so:system/vendor/lib/libchromatix_imx362_fullsize_video_3a_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx362_hdr_snapshot_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hdr_snapshot_3a_bear.so:system/vendor/lib/libchromatix_imx362_hdr_snapshot_3a_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hdr_video_3a.so:system/vendor/lib/libchromatix_imx362_hdr_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hdr_video_3a_bear.so:system/vendor/lib/libchromatix_imx362_hdr_video_3a_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hfr_120.so:system/vendor/lib/libchromatix_imx362_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hfr_120_3a.so:system/vendor/lib/libchromatix_imx362_hfr_120_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hfr_120_3a_bear.so:system/vendor/lib/libchromatix_imx362_hfr_120_3a_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hfr_120_bear.so:system/vendor/lib/libchromatix_imx362_hfr_120_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hfr_240.so:system/vendor/lib/libchromatix_imx362_hfr_240.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hfr_240_3a.so:system/vendor/lib/libchromatix_imx362_hfr_240_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hfr_240_3a_bear.so:system/vendor/lib/libchromatix_imx362_hfr_240_3a_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hfr_240_bear.so:system/vendor/lib/libchromatix_imx362_hfr_240_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hfr_60.so:system/vendor/lib/libchromatix_imx362_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hfr_60_3a.so:system/vendor/lib/libchromatix_imx362_hfr_60_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hfr_60_3a_bear.so:system/vendor/lib/libchromatix_imx362_hfr_60_3a_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_hfr_60_bear.so:system/vendor/lib/libchromatix_imx362_hfr_60_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_postproc.so:system/vendor/lib/libchromatix_imx362_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_postproc_bear.so:system/vendor/lib/libchromatix_imx362_postproc_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_preview.so:system/vendor/lib/libchromatix_imx362_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_preview_bear.so:system/vendor/lib/libchromatix_imx362_preview_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_snapshot.so:system/vendor/lib/libchromatix_imx362_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_snapshot_bear.so:system/vendor/lib/libchromatix_imx362_snapshot_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_snapshot_hdr.so:system/vendor/lib/libchromatix_imx362_snapshot_hdr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_snapshot_hdr_bear.so:system/vendor/lib/libchromatix_imx362_snapshot_hdr_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_video_4k.so:system/vendor/lib/libchromatix_imx362_video_4k.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_video_4k_bear.so:system/vendor/lib/libchromatix_imx362_video_4k_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_video_hdr.so:system/vendor/lib/libchromatix_imx362_video_hdr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx362_video_hdr_bear.so:system/vendor/lib/libchromatix_imx362_video_hdr_bear.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_4K_preview.so:system/vendor/lib/libchromatix_imx378_4K_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_4K_video.so:system/vendor/lib/libchromatix_imx378_4K_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_common.so:system/vendor/lib/libchromatix_imx378_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx378_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_cpp_hfr_240.so:system/vendor/lib/libchromatix_imx378_cpp_hfr_240.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_cpp_hfr_60.so:system/vendor/lib/libchromatix_imx378_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_cpp_hfr_90.so:system/vendor/lib/libchromatix_imx378_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_cpp_liveshot.so:system/vendor/lib/libchromatix_imx378_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_cpp_preview.so:system/vendor/lib/libchromatix_imx378_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_cpp_snapshot.so:system/vendor/lib/libchromatix_imx378_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_cpp_snapshot_hdr.so:system/vendor/lib/libchromatix_imx378_cpp_snapshot_hdr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_cpp_video.so:system/vendor/lib/libchromatix_imx378_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_cpp_video_hdr.so:system/vendor/lib/libchromatix_imx378_cpp_video_hdr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_default_preview.so:system/vendor/lib/libchromatix_imx378_default_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_default_video.so:system/vendor/lib/libchromatix_imx378_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_hdr_snapshot_3a.so:system/vendor/lib/libchromatix_imx378_hdr_snapshot_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_hdr_video_3a.so:system/vendor/lib/libchromatix_imx378_hdr_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_hfr_120.so:system/vendor/lib/libchromatix_imx378_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_hfr_120_3a.so:system/vendor/lib/libchromatix_imx378_hfr_120_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_hfr_240.so:system/vendor/lib/libchromatix_imx378_hfr_240.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_hfr_240_3a.so:system/vendor/lib/libchromatix_imx378_hfr_240_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_hfr_60.so:system/vendor/lib/libchromatix_imx378_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_hfr_60_3a.so:system/vendor/lib/libchromatix_imx378_hfr_60_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_hfr_90.so:system/vendor/lib/libchromatix_imx378_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_hfr_90_3a.so:system/vendor/lib/libchromatix_imx378_hfr_90_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_liveshot.so:system/vendor/lib/libchromatix_imx378_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_postproc.so:system/vendor/lib/libchromatix_imx378_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_preview.so:system/vendor/lib/libchromatix_imx378_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_snapshot.so:system/vendor/lib/libchromatix_imx378_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_snapshot_hdr.so:system/vendor/lib/libchromatix_imx378_snapshot_hdr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_video.so:system/vendor/lib/libchromatix_imx378_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_video_hdr.so:system/vendor/lib/libchromatix_imx378_video_hdr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_zsl_preview.so:system/vendor/lib/libchromatix_imx378_zsl_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_imx378_zsl_video.so:system/vendor/lib/libchromatix_imx378_zsl_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13850_common.so:system/vendor/lib/libchromatix_ov13850_common.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13850_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov13850_cpp_ds_chromatix.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13850_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov13850_cpp_hfr_120.so \
@@ -626,6 +842,90 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13850_video_full.so:system/vendor/lib/libchromatix_ov13850_video_full.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13850_zsl_preview_lc898212xd.so:system/vendor/lib/libchromatix_ov13850_zsl_preview_lc898212xd.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13850_zsl_video_lc898212xd.so:system/vendor/lib/libchromatix_ov13850_zsl_video_lc898212xd.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_common.so:system/vendor/lib/libchromatix_ov13855_qtech_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov13855_qtech_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov13855_qtech_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov13855_qtech_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_cpp_liveshot.so:system/vendor/lib/libchromatix_ov13855_qtech_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_cpp_preview.so:system/vendor/lib/libchromatix_ov13855_qtech_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_cpp_snapshot.so:system/vendor/lib/libchromatix_ov13855_qtech_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_cpp_video.so:system/vendor/lib/libchromatix_ov13855_qtech_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_default_preview_dw9763.so:system/vendor/lib/libchromatix_ov13855_qtech_default_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_default_video_dw9763.so:system/vendor/lib/libchromatix_ov13855_qtech_default_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_hfr_120.so:system/vendor/lib/libchromatix_ov13855_qtech_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_hfr_120_dw9763.so:system/vendor/lib/libchromatix_ov13855_qtech_hfr_120_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_hfr_60.so:system/vendor/lib/libchromatix_ov13855_qtech_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_hfr_60_dw9763.so:system/vendor/lib/libchromatix_ov13855_qtech_hfr_60_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_hfr_90.so:system/vendor/lib/libchromatix_ov13855_qtech_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_hfr_90_dw9763.so:system/vendor/lib/libchromatix_ov13855_qtech_hfr_90_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_common.so:system/vendor/lib/libchromatix_ov13855_qtech_india_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov13855_qtech_india_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov13855_qtech_india_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov13855_qtech_india_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_cpp_liveshot.so:system/vendor/lib/libchromatix_ov13855_qtech_india_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_cpp_preview.so:system/vendor/lib/libchromatix_ov13855_qtech_india_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_cpp_snapshot.so:system/vendor/lib/libchromatix_ov13855_qtech_india_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_cpp_video.so:system/vendor/lib/libchromatix_ov13855_qtech_india_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_default_preview_dw9763.so:system/vendor/lib/libchromatix_ov13855_qtech_india_default_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_default_video_dw9763.so:system/vendor/lib/libchromatix_ov13855_qtech_india_default_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_hfr_120.so:system/vendor/lib/libchromatix_ov13855_qtech_india_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_hfr_120_dw9763.so:system/vendor/lib/libchromatix_ov13855_qtech_india_hfr_120_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_hfr_60.so:system/vendor/lib/libchromatix_ov13855_qtech_india_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_hfr_60_dw9763.so:system/vendor/lib/libchromatix_ov13855_qtech_india_hfr_60_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_hfr_90.so:system/vendor/lib/libchromatix_ov13855_qtech_india_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_hfr_90_dw9763.so:system/vendor/lib/libchromatix_ov13855_qtech_india_hfr_90_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_liveshot.so:system/vendor/lib/libchromatix_ov13855_qtech_india_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_postproc.so:system/vendor/lib/libchromatix_ov13855_qtech_india_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_preview.so:system/vendor/lib/libchromatix_ov13855_qtech_india_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_snapshot.so:system/vendor/lib/libchromatix_ov13855_qtech_india_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_video.so:system/vendor/lib/libchromatix_ov13855_qtech_india_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_ov13855_qtech_india_zsl_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_india_zsl_video_dw9763.so:system/vendor/lib/libchromatix_ov13855_qtech_india_zsl_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_liveshot.so:system/vendor/lib/libchromatix_ov13855_qtech_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_postproc.so:system/vendor/lib/libchromatix_ov13855_qtech_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_preview.so:system/vendor/lib/libchromatix_ov13855_qtech_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_snapshot.so:system/vendor/lib/libchromatix_ov13855_qtech_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_video.so:system/vendor/lib/libchromatix_ov13855_qtech_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_ov13855_qtech_zsl_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_qtech_zsl_video_dw9763.so:system/vendor/lib/libchromatix_ov13855_qtech_zsl_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_common.so:system/vendor/lib/libchromatix_ov13855_sunny_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov13855_sunny_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov13855_sunny_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov13855_sunny_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_cpp_liveshot.so:system/vendor/lib/libchromatix_ov13855_sunny_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_cpp_preview.so:system/vendor/lib/libchromatix_ov13855_sunny_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_cpp_snapshot.so:system/vendor/lib/libchromatix_ov13855_sunny_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_cpp_video.so:system/vendor/lib/libchromatix_ov13855_sunny_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_default_preview_dw9763.so:system/vendor/lib/libchromatix_ov13855_sunny_default_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_default_video_dw9763.so:system/vendor/lib/libchromatix_ov13855_sunny_default_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_hfr_120.so:system/vendor/lib/libchromatix_ov13855_sunny_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_hfr_120_dw9763.so:system/vendor/lib/libchromatix_ov13855_sunny_hfr_120_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_hfr_60.so:system/vendor/lib/libchromatix_ov13855_sunny_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_hfr_60_dw9763.so:system/vendor/lib/libchromatix_ov13855_sunny_hfr_60_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_hfr_90.so:system/vendor/lib/libchromatix_ov13855_sunny_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_hfr_90_dw9763.so:system/vendor/lib/libchromatix_ov13855_sunny_hfr_90_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_liveshot.so:system/vendor/lib/libchromatix_ov13855_sunny_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_postproc.so:system/vendor/lib/libchromatix_ov13855_sunny_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_preview.so:system/vendor/lib/libchromatix_ov13855_sunny_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_snapshot.so:system/vendor/lib/libchromatix_ov13855_sunny_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_video.so:system/vendor/lib/libchromatix_ov13855_sunny_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_ov13855_sunny_zsl_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov13855_sunny_zsl_video_dw9763.so:system/vendor/lib/libchromatix_ov13855_sunny_zsl_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_a3_default_preview.so:system/vendor/lib/libchromatix_ov2281_a3_default_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_a3_default_video.so:system/vendor/lib/libchromatix_ov2281_a3_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_common.so:system/vendor/lib/libchromatix_ov2281_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov2281_cpp_ds_chromatix.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_cpp_liveshot.so:system/vendor/lib/libchromatix_ov2281_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_cpp_preview.so:system/vendor/lib/libchromatix_ov2281_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_cpp_snapshot.so:system/vendor/lib/libchromatix_ov2281_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov2281_cpp_us_chromatix.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_cpp_video.so:system/vendor/lib/libchromatix_ov2281_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_default_video.so:system/vendor/lib/libchromatix_ov2281_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_postproc.so:system/vendor/lib/libchromatix_ov2281_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_preview.so:system/vendor/lib/libchromatix_ov2281_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_snapshot.so:system/vendor/lib/libchromatix_ov2281_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_zsl_preview.so:system/vendor/lib/libchromatix_ov2281_zsl_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2281_zsl_video.so:system/vendor/lib/libchromatix_ov2281_zsl_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2680_a3_default_preview.so:system/vendor/lib/libchromatix_ov2680_a3_default_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2680_a3_default_video.so:system/vendor/lib/libchromatix_ov2680_a3_default_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov2680_a3_hfr_60.so:system/vendor/lib/libchromatix_ov2680_a3_hfr_60.so \
@@ -738,6 +1038,29 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_snapshot.so:system/vendor/lib/libchromatix_ov5675_d5v15b_snapshot.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_zsl_preview_3a.so:system/vendor/lib/libchromatix_ov5675_d5v15b_zsl_preview_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_d5v15b_zsl_video_3a.so:system/vendor/lib/libchromatix_ov5675_d5v15b_zsl_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_common.so:system/vendor/lib/libchromatix_ov5675_ofilm_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov5675_ofilm_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov5675_ofilm_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov5675_ofilm_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_ov5675_ofilm_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_cpp_preview.so:system/vendor/lib/libchromatix_ov5675_ofilm_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_cpp_snapshot.so:system/vendor/lib/libchromatix_ov5675_ofilm_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_cpp_video.so:system/vendor/lib/libchromatix_ov5675_ofilm_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_default_preview_3a.so:system/vendor/lib/libchromatix_ov5675_ofilm_default_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_default_video.so:system/vendor/lib/libchromatix_ov5675_ofilm_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_default_video_3a.so:system/vendor/lib/libchromatix_ov5675_ofilm_default_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_hfr_120.so:system/vendor/lib/libchromatix_ov5675_ofilm_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_hfr_120_3a.so:system/vendor/lib/libchromatix_ov5675_ofilm_hfr_120_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_hfr_60.so:system/vendor/lib/libchromatix_ov5675_ofilm_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_hfr_60_3a.so:system/vendor/lib/libchromatix_ov5675_ofilm_hfr_60_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_hfr_90.so:system/vendor/lib/libchromatix_ov5675_ofilm_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_hfr_90_3a.so:system/vendor/lib/libchromatix_ov5675_ofilm_hfr_90_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_liveshot.so:system/vendor/lib/libchromatix_ov5675_ofilm_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_postproc.so:system/vendor/lib/libchromatix_ov5675_ofilm_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_preview.so:system/vendor/lib/libchromatix_ov5675_ofilm_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_snapshot.so:system/vendor/lib/libchromatix_ov5675_ofilm_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_zsl_preview_3a.so:system/vendor/lib/libchromatix_ov5675_ofilm_zsl_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5675_ofilm_zsl_video_3a.so:system/vendor/lib/libchromatix_ov5675_ofilm_zsl_video_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5695_a3_default_preview.so:system/vendor/lib/libchromatix_ov5695_a3_default_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5695_a3_default_video.so:system/vendor/lib/libchromatix_ov5695_a3_default_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5695_a3_hfr_120.so:system/vendor/lib/libchromatix_ov5695_a3_hfr_120.so \
@@ -765,6 +1088,37 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5695_video_full.so:system/vendor/lib/libchromatix_ov5695_video_full.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5695_zsl_preview.so:system/vendor/lib/libchromatix_ov5695_zsl_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov5695_zsl_video.so:system/vendor/lib/libchromatix_ov5695_zsl_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov7251_liveshot.so:system/vendor/lib/libchromatix_ov7251_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov7251_postproc.so:system/vendor/lib/libchromatix_ov7251_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov7251_preview.so:system/vendor/lib/libchromatix_ov7251_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov7251_snapshot.so:system/vendor/lib/libchromatix_ov7251_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov7251_zsl_preview.so:system/vendor/lib/libchromatix_ov7251_zsl_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov7251_zsl_video.so:system/vendor/lib/libchromatix_ov7251_zsl_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_a3_default_preview.so:system/vendor/lib/libchromatix_ov8856_a3_default_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_a3_default_video.so:system/vendor/lib/libchromatix_ov8856_a3_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_120.so:system/vendor/lib/libchromatix_ov8856_a3_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_60.so:system/vendor/lib/libchromatix_ov8856_a3_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_a3_hfr_90.so:system/vendor/lib/libchromatix_ov8856_a3_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_common.so:system/vendor/lib/libchromatix_ov8856_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_ov8856_cpp_ds_chromatix.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_120.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_60.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8856_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_cpp_liveshot.so:system/vendor/lib/libchromatix_ov8856_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_cpp_preview.so:system/vendor/lib/libchromatix_ov8856_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_cpp_snapshot.so:system/vendor/lib/libchromatix_ov8856_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_cpp_us_chromatix.so:system/vendor/lib/libchromatix_ov8856_cpp_us_chromatix.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_cpp_video.so:system/vendor/lib/libchromatix_ov8856_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_default_video.so:system/vendor/lib/libchromatix_ov8856_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_hfr_120.so:system/vendor/lib/libchromatix_ov8856_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_hfr_60.so:system/vendor/lib/libchromatix_ov8856_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_hfr_90.so:system/vendor/lib/libchromatix_ov8856_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_liveshot.so:system/vendor/lib/libchromatix_ov8856_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_postproc.so:system/vendor/lib/libchromatix_ov8856_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_preview.so:system/vendor/lib/libchromatix_ov8856_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_snapshot.so:system/vendor/lib/libchromatix_ov8856_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_zsl_preview.so:system/vendor/lib/libchromatix_ov8856_zsl_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8856_zsl_video.so:system/vendor/lib/libchromatix_ov8856_zsl_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8858_a3_default_preview.so:system/vendor/lib/libchromatix_ov8858_a3_default_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8858_a3_default_video.so:system/vendor/lib/libchromatix_ov8858_a3_default_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8858_a3_hfr_120.so:system/vendor/lib/libchromatix_ov8858_a3_hfr_120.so \
@@ -815,29 +1169,246 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8865_video_full.so:system/vendor/lib/libchromatix_ov8865_video_full.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_common.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_common.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_120.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_120.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_60.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_60.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_90.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_hfr_90.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_liveshot.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_liveshot.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_preview.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_preview.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_snapshot.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_snapshot.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_video.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_cpp_video.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_preview_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_preview_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_video.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_video.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_video_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_default_video_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_120.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_120.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_120_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_120_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_60.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_60.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_60_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_60_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_90.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_90.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_90_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_hfr_90_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_liveshot.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_liveshot.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_postproc.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_postproc.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_preview.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_preview.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_snapshot.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_snapshot.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_zsl_preview_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_zsl_video_dw9763.so:system/vendor/lib/libchromatix_qtech_s5k3l8_f3l8yam_zsl_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_4K.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_4K.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_4K_preview_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_4K_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_4K_video_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_4K_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_common.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_4K.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_4K.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_hfr_120.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_hfr_60.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_hfr_90.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_liveshot.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_preview.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_snapshot.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_video.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_default_preview_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_default_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_default_video.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_default_video_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_default_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_hfr_120.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_hfr_120_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_hfr_120_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_hfr_60.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_hfr_60_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_hfr_60_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_hfr_90.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_hfr_90_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_hfr_90_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_4K.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_4K.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_4K_preview_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_4K_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_4K_video_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_4K_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_common.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_4K.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_4K.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_hfr_120.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_hfr_60.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_hfr_90.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_liveshot.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_preview.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_snapshot.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_video.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_default_preview_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_default_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_default_video.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_default_video_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_default_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_hfr_120.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_hfr_120_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_hfr_120_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_hfr_60.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_hfr_60_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_hfr_60_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_hfr_90.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_hfr_90_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_hfr_90_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_liveshot.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_postproc.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_preview.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_snapshot.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_zsl_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_india_zsl_video_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_india_zsl_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_liveshot.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_postproc.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_preview.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_snapshot.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_zsl_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov12a10_i_zsl_video_dw9763.so:system/vendor/lib/libchromatix_ovt_ov12a10_i_zsl_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_common.so:system/vendor/lib/libchromatix_ovt_ov5675_i_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_common_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_common_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_hfr_120.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_hfr_60.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_hfr_90.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_liveshot.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_liveshot_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_liveshot_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_preview.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_preview_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_preview_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_snapshot.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_snapshot_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_snapshot_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_video.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_cpp_video_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_cpp_video_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_default_preview_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_i_default_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_default_preview_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_default_preview_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_default_video.so:system/vendor/lib/libchromatix_ovt_ov5675_i_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_default_video_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_i_default_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_default_video_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_default_video_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_hfr_120.so:system/vendor/lib/libchromatix_ovt_ov5675_i_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_hfr_120_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_i_hfr_120_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_hfr_60.so:system/vendor/lib/libchromatix_ovt_ov5675_i_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_hfr_60_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_i_hfr_60_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_hfr_90.so:system/vendor/lib/libchromatix_ovt_ov5675_i_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_hfr_90_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_i_hfr_90_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_common.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_common_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_common_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_hfr_120.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_hfr_60.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_hfr_90.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_liveshot.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_liveshot_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_liveshot_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_preview.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_preview_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_preview_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_snapshot.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_snapshot_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_snapshot_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_video.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_video_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_cpp_video_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_default_preview_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_default_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_default_preview_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_default_preview_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_default_video.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_default_video_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_default_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_default_video_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_default_video_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_hfr_120.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_hfr_120_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_hfr_120_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_hfr_60.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_hfr_60_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_hfr_60_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_hfr_90.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_hfr_90_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_hfr_90_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_liveshot.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_postproc.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_postproc_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_postproc_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_preview.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_snapshot.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_snapshot_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_snapshot_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_zsl_preview_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_zsl_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_zsl_preview_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_zsl_preview_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_zsl_video_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_zsl_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_india_zsl_video_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_india_zsl_video_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_liveshot.so:system/vendor/lib/libchromatix_ovt_ov5675_i_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_postproc.so:system/vendor/lib/libchromatix_ovt_ov5675_i_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_postproc_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_postproc_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_preview.so:system/vendor/lib/libchromatix_ovt_ov5675_i_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_snapshot.so:system/vendor/lib/libchromatix_ovt_ov5675_i_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_snapshot_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_snapshot_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_zsl_preview_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_i_zsl_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_zsl_preview_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_zsl_preview_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_zsl_video_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_i_zsl_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_i_zsl_video_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_i_zsl_video_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_common.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_common_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_common_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_hfr_120.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_hfr_60.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_hfr_90.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_liveshot.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_liveshot_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_liveshot_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_preview.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_preview_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_preview_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_snapshot.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_snapshot_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_snapshot_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_video.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_video_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_cpp_video_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_default_preview_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_default_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_default_preview_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_default_preview_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_default_video.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_default_video_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_default_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_default_video_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_default_video_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_hfr_120.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_hfr_120_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_hfr_120_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_hfr_60.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_hfr_60_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_hfr_60_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_hfr_90.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_hfr_90_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_hfr_90_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_common.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_common_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_common_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_hfr_120.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_hfr_60.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_hfr_90.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_liveshot.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_liveshot_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_liveshot_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_preview.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_preview_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_preview_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_snapshot.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_snapshot_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_snapshot_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_video.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_video_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_cpp_video_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_default_preview_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_default_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_default_preview_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_default_preview_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_default_video.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_default_video_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_default_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_default_video_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_default_video_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_hfr_120.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_hfr_120_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_hfr_120_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_hfr_60.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_hfr_60_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_hfr_60_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_hfr_90.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_hfr_90_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_hfr_90_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_liveshot.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_postproc.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_postproc_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_postproc_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_preview.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_snapshot.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_snapshot_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_snapshot_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_zsl_preview_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_zsl_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_zsl_preview_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_zsl_preview_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_zsl_video_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_zsl_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_india_zsl_video_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_india_zsl_video_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_liveshot.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_postproc.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_postproc_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_postproc_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_preview.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_snapshot.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_snapshot_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_snapshot_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_zsl_preview_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_zsl_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_zsl_preview_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_zsl_preview_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_zsl_video_3a.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_zsl_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_ovt_ov5675_ii_zsl_video_3a_torch.so:system/vendor/lib/libchromatix_ovt_ov5675_ii_zsl_video_3a_torch.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_4k_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_4k_preview_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_4k_video_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_4k_video_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_4k_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_4k_preview_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_4k_video_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_4k_video_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_common.so:system/vendor/lib/libchromatix_s5k2l7_8953_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_preview.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_video.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_8953_cpp_video_4k.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_default_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_default_preview_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_default_video_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_default_video_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_8953_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_hfr_120_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_hfr_120_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_8953_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_hfr_60_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_hfr_60_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_8953_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_hfr_90_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_hfr_90_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_postproc.so:system/vendor/lib/libchromatix_s5k2l7_8953_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_preview.so:system/vendor/lib/libchromatix_s5k2l7_8953_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_8953_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_8953_video_4k.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_zsl_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_zsl_preview_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_8953_zsl_video_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_8953_zsl_video_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_common.so:system/vendor/lib/libchromatix_s5k2l7_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k2l7_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_preview.so:system/vendor/lib/libchromatix_s5k2l7_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_video.so:system/vendor/lib/libchromatix_s5k2l7_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_cpp_video_4k.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_default_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_default_preview_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_default_video_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_default_video_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_hfr_120.so:system/vendor/lib/libchromatix_s5k2l7_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_hfr_120_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_hfr_120_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_hfr_60.so:system/vendor/lib/libchromatix_s5k2l7_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_hfr_60_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_hfr_60_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_hfr_90.so:system/vendor/lib/libchromatix_s5k2l7_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_hfr_90_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_hfr_90_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_postproc.so:system/vendor/lib/libchromatix_s5k2l7_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_preview.so:system/vendor/lib/libchromatix_s5k2l7_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_snapshot.so:system/vendor/lib/libchromatix_s5k2l7_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_video_4k.so:system/vendor/lib/libchromatix_s5k2l7_video_4k.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_zsl_preview_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_zsl_preview_ak7371.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k2l7_zsl_video_ak7371.so:system/vendor/lib/libchromatix_s5k2l7_zsl_video_ak7371.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l2_common.so:system/vendor/lib/libchromatix_s5k3l2_common.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l2_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3l2_cpp_hfr_120.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l2_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3l2_cpp_hfr_60.so \
@@ -922,6 +1493,72 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_mono_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_mono_snapshot.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_mono_zsl_preview_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_mono_zsl_preview_ak7345.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_mono_zsl_video_ak7345.so:system/vendor/lib/libchromatix_s5k3l8_mono_zsl_video_ak7345.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_common.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_cpp_preview.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_cpp_video.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_default_preview_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_default_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_default_video.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_default_video_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_default_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_hfr_120_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_hfr_120_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_hfr_60_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_hfr_60_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_hfr_90_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_hfr_90_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_postproc.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_preview.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_common.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_cpp_preview.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_cpp_video.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_default_preview_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_default_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_default_video.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_default_video_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_default_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_hfr_120_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_hfr_120_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_hfr_60_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_hfr_60_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_hfr_90_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_hfr_90_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_common.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_cpp_preview.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_cpp_video.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_default_preview_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_default_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_default_video.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_default_video_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_default_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_hfr_120.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_hfr_120_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_hfr_120_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_hfr_60.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_hfr_60_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_hfr_60_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_hfr_90.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_hfr_90_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_hfr_90_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_postproc.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_preview.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_zsl_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_zsl_video_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_india_zsl_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_postproc.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_preview.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_zsl_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_riva_zsl_video_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_riva_zsl_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_zsl_preview_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_ofilm_zsl_video_dw9763.so:system/vendor/lib/libchromatix_s5k3l8_ofilm_zsl_video_dw9763.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_postproc.so:system/vendor/lib/libchromatix_s5k3l8_postproc.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_preview.so:system/vendor/lib/libchromatix_s5k3l8_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3l8_snapshot.so:system/vendor/lib/libchromatix_s5k3l8_snapshot.so \
@@ -982,6 +1619,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_liveshot.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot_downscale.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot_downscale.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot_upscale.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_snapshot_upscale.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_cpp_video_4k.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3m2xx_default_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_default_preview_ad5816g.so \
@@ -999,29 +1638,31 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3m2xx_video_4k.so:system/vendor/lib/libchromatix_s5k3m2xx_video_4k.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_preview_ad5816g.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so:system/vendor/lib/libchromatix_s5k3m2xx_zsl_video_ad5816g.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_common.so:system/vendor/lib/libchromatix_s5k4h8_common.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_60.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_90.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_preview.so:system/vendor/lib/libchromatix_s5k4h8_cpp_preview.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_video.so:system/vendor/lib/libchromatix_s5k4h8_cpp_video.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_default_preview_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_default_preview_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_default_video.so:system/vendor/lib/libchromatix_s5k4h8_default_video.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_default_video_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_default_video_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_hfr_120.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_hfr_120_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_60.so:system/vendor/lib/libchromatix_s5k4h8_hfr_60.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_60_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_hfr_60_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_90.so:system/vendor/lib/libchromatix_s5k4h8_hfr_90.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_90_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_hfr_90_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_liveshot.so:system/vendor/lib/libchromatix_s5k4h8_liveshot.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_postproc.so:system/vendor/lib/libchromatix_s5k4h8_postproc.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_preview.so:system/vendor/lib/libchromatix_s5k4h8_preview.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_snapshot.so:system/vendor/lib/libchromatix_s5k4h8_snapshot.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_zsl_preview_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video_dw9763.so:system/vendor/lib/libchromatix_s5k4h8_zsl_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p3sm_common.so:system/vendor/lib/libchromatix_s5k3p3sm_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p3sm_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p3sm_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p3sm_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p3sm_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p3sm_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sm_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p3sm_cpp_video.so:system/vendor/lib/libchromatix_s5k3p3sm_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p3sm_default_preview_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_default_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p3sm_default_video.so:system/vendor/lib/libchromatix_s5k3p3sm_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p3sm_default_video_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_default_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p3sm_fullsize_preview_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_fullsize_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p3sm_fullsize_video_3a.so:system/vendor/lib/libchromatix_s5k3p3sm_fullsize_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p3sm_postproc.so:system/vendor/lib/libchromatix_s5k3p3sm_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p3sm_preview.so:system/vendor/lib/libchromatix_s5k3p3sm_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p3sm_snapshot.so:system/vendor/lib/libchromatix_s5k3p3sm_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_default_preview.so:system/vendor/lib/libchromatix_s5k3p8sp_a3_default_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_default_video.so:system/vendor/lib/libchromatix_s5k3p8sp_a3_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_preview.so:system/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_video.so:system/vendor/lib/libchromatix_s5k3p8sp_a3_zsl_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p8sp_common.so:system/vendor/lib/libchromatix_s5k3p8sp_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k3p8sp_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_preview.so:system/vendor/lib/libchromatix_s5k3p8sp_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k3p8sp_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p8sp_cpp_video.so:system/vendor/lib/libchromatix_s5k3p8sp_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p8sp_postproc.so:system/vendor/lib/libchromatix_s5k3p8sp_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p8sp_preview.so:system/vendor/lib/libchromatix_s5k3p8sp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k3p8sp_snapshot.so:system/vendor/lib/libchromatix_s5k3p8sp_snapshot.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_a3_default_preview.so:system/vendor/lib/libchromatix_s5k5e8_a3_default_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_a3_default_video.so:system/vendor/lib/libchromatix_s5k5e8_a3_default_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_a3_hfr_120.so \
@@ -1064,37 +1705,181 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_liveshot.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_postproc.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_postproc.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_preview.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_a3_default_preview.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_a3_default_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_a3_default_video.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_a3_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_a3_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_a3_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_a3_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_a3_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_a3_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_common.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_ds_chromatix.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_preview.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_us_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_us_chromatix.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_video.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_default_video.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_a3_default_preview.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_a3_default_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_a3_default_video.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_a3_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_a3_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_a3_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_a3_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_a3_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_a3_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_common.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_ds_chromatix.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_preview.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_us_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_us_chromatix.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_video.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_default_video.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_postproc.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_preview.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_zsl_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_zsl_video.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_india_zsl_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_postproc.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_preview.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_zsl_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_riva_zsl_video.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_riva_zsl_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_snapshot.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_zsl_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_ofilm_zsl_video.so:system/vendor/lib/libchromatix_s5k5e8_ofilm_zsl_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_postproc.so:system/vendor/lib/libchromatix_s5k5e8_postproc.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_preview.so:system/vendor/lib/libchromatix_s5k5e8_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_a3_default_preview.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_a3_default_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_a3_default_video.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_a3_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_a3_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_a3_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_a3_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_a3_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_a3_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_common.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_ds_chromatix.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_preview.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_us_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_us_chromatix.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_video.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_default_video.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_a3_default_preview.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_a3_default_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_a3_default_video.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_a3_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_a3_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_a3_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_a3_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_a3_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_a3_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_a3_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_common.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_ds_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_ds_chromatix.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_preview.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_us_chromatix.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_us_chromatix.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_video.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_default_video.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_postproc.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_preview.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_zsl_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_zsl_video.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_india_zsl_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_postproc.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_preview.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_zsl_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_qtech_riva_zsl_video.so:system/vendor/lib/libchromatix_s5k5e8_qtech_riva_zsl_video.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_common.so:system/vendor/lib/libchromatix_s5k5e8_sunny_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_sunny_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_cpp_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_sunny_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_cpp_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_sunny_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_sunny_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_cpp_preview.so:system/vendor/lib/libchromatix_s5k5e8_sunny_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_sunny_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_cpp_video.so:system/vendor/lib/libchromatix_s5k5e8_sunny_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_default_preview_3a.so:system/vendor/lib/libchromatix_s5k5e8_sunny_default_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_default_video.so:system/vendor/lib/libchromatix_s5k5e8_sunny_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_default_video_3a.so:system/vendor/lib/libchromatix_s5k5e8_sunny_default_video_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_hfr_120.so:system/vendor/lib/libchromatix_s5k5e8_sunny_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_hfr_120_3a.so:system/vendor/lib/libchromatix_s5k5e8_sunny_hfr_120_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_hfr_60.so:system/vendor/lib/libchromatix_s5k5e8_sunny_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_hfr_60_3a.so:system/vendor/lib/libchromatix_s5k5e8_sunny_hfr_60_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_hfr_90.so:system/vendor/lib/libchromatix_s5k5e8_sunny_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_hfr_90_3a.so:system/vendor/lib/libchromatix_s5k5e8_sunny_hfr_90_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_liveshot.so:system/vendor/lib/libchromatix_s5k5e8_sunny_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_postproc.so:system/vendor/lib/libchromatix_s5k5e8_sunny_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_preview.so:system/vendor/lib/libchromatix_s5k5e8_sunny_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_snapshot.so:system/vendor/lib/libchromatix_s5k5e8_sunny_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_zsl_preview_3a.so:system/vendor/lib/libchromatix_s5k5e8_sunny_zsl_preview_3a.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_sunny_zsl_video_3a.so:system/vendor/lib/libchromatix_s5k5e8_sunny_zsl_video_3a.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_preview.so:system/vendor/lib/libchromatix_s5k5e8_zsl_preview.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_s5k5e8_zsl_video.so:system/vendor/lib/libchromatix_s5k5e8_zsl_video.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_common.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_common.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_120.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_120.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_60.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_60.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_90.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_hfr_90.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_liveshot.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_liveshot.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_preview.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_preview.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_snapshot.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_snapshot.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_video.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_cpp_video.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_preview_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_preview_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_video.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_video.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_video_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_default_video_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_120.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_120.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_120_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_120_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_60.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_60.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_60_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_60_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_90.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_90.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_90_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_hfr_90_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_liveshot.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_liveshot.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_postproc.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_postproc.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_preview.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_preview.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_snapshot.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_snapshot.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_zsl_preview_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_zsl_preview_dw9763.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_zsl_video_dw9763.so:system/vendor/lib/libchromatix_sunny_s5k3l8_f3l8yam_zsl_video_dw9763.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_common.so:system/vendor/lib/libchromatix_sony_imx486_ii_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_cpp_hfr_120.so:system/vendor/lib/libchromatix_sony_imx486_ii_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_cpp_hfr_60.so:system/vendor/lib/libchromatix_sony_imx486_ii_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_cpp_hfr_90.so:system/vendor/lib/libchromatix_sony_imx486_ii_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_cpp_liveshot.so:system/vendor/lib/libchromatix_sony_imx486_ii_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_cpp_preview.so:system/vendor/lib/libchromatix_sony_imx486_ii_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_cpp_snapshot.so:system/vendor/lib/libchromatix_sony_imx486_ii_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_cpp_video.so:system/vendor/lib/libchromatix_sony_imx486_ii_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_default_preview_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_default_preview_dw9714v.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_default_video.so:system/vendor/lib/libchromatix_sony_imx486_ii_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_default_video_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_default_video_dw9714v.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_hfr_120.so:system/vendor/lib/libchromatix_sony_imx486_ii_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_hfr_120_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_hfr_120_dw9714v.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_hfr_60.so:system/vendor/lib/libchromatix_sony_imx486_ii_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_hfr_60_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_hfr_60_dw9714v.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_hfr_90.so:system/vendor/lib/libchromatix_sony_imx486_ii_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_hfr_90_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_hfr_90_dw9714v.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_common.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_common.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_cpp_hfr_120.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_cpp_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_cpp_hfr_60.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_cpp_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_cpp_hfr_90.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_cpp_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_cpp_liveshot.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_cpp_liveshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_cpp_preview.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_cpp_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_cpp_snapshot.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_cpp_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_cpp_video.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_cpp_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_default_preview_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_default_preview_dw9714v.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_default_video.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_default_video.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_default_video_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_default_video_dw9714v.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_hfr_120.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_hfr_120.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_hfr_120_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_hfr_120_dw9714v.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_hfr_60.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_hfr_60.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_hfr_60_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_hfr_60_dw9714v.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_hfr_90.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_hfr_90.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_hfr_90_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_hfr_90_dw9714v.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_postproc.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_preview.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_snapshot.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_zsl_preview_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_zsl_preview_dw9714v.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_india_zsl_video_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_india_zsl_video_dw9714v.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_postproc.so:system/vendor/lib/libchromatix_sony_imx486_ii_postproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_preview.so:system/vendor/lib/libchromatix_sony_imx486_ii_preview.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_snapshot.so:system/vendor/lib/libchromatix_sony_imx486_ii_snapshot.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_zsl_preview_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_zsl_preview_dw9714v.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libchromatix_sony_imx486_ii_zsl_video_dw9714v.so:system/vendor/lib/libchromatix_sony_imx486_ii_zsl_video_dw9714v.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
@@ -1110,8 +1895,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libdrc.so:system/vendor/lib/libdrc.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libFaceGrade.so:system/vendor/lib/libFaceGrade.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libFaceProc.so:system/vendor/lib/libFaceProc.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libFlacSwDec.so:system/vendor/lib/libFlacSwDec.so \
@@ -1138,6 +1921,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera2_is.so:system/vendor/lib/libmmcamera2_is.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera2_mct.so:system/vendor/lib/libmmcamera2_mct.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera2_mct_shimlayer.so:system/vendor/lib/libmmcamera2_mct_shimlayer.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera2_pp_buf_mgr.so:system/vendor/lib/libmmcamera2_pp_buf_mgr.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
@@ -1145,26 +1929,32 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:system/vendor/lib/libmmcamera2_stats_algorithm.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so:system/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_cac3_lib.so:system/vendor/lib/libmmcamera_cac3_lib.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_csidtg.so:system/vendor/lib/libmmcamera_csidtg.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_dbg.so:system/vendor/lib/libmmcamera_dbg.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_dcrf_lib.so:system/vendor/lib/libmmcamera_dcrf_lib.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_dummyalgo.so:system/vendor/lib/libmmcamera_dummyalgo.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_dw9761b_2d_eeprom.so:system/vendor/lib/libmmcamera_dw9761b_2d_eeprom.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_dw9761b_eeprom.so:system/vendor/lib/libmmcamera_dw9761b_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_eebinparse.so:system/vendor/lib/libmmcamera_eebinparse.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_eeprom_util.so:system/vendor/lib/libmmcamera_eeprom_util.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_eztune_module.so:system/vendor/lib/libmmcamera_eztune_module.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_facedetection_lib.so:system/vendor/lib/libmmcamera_facedetection_lib.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_imglib.so:system/vendor/lib/libmmcamera_imglib.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_imx214.so:system/vendor/lib/libmmcamera_imx214.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_imx230.so:system/vendor/lib/libmmcamera_imx230.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_imx258.so:system/vendor/lib/libmmcamera_imx258.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so:system/vendor/lib/libmmcamera_imx258_gt24c16_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_imx258_gt24c32_eeprom.so:system/vendor/lib/libmmcamera_imx258_gt24c32_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_imx258_mono.so:system/vendor/lib/libmmcamera_imx258_mono.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_imx258_mono_gt24c32_eeprom.so:system/vendor/lib/libmmcamera_imx258_mono_gt24c32_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_imx298.so:system/vendor/lib/libmmcamera_imx298.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_imx318.so:system/vendor/lib/libmmcamera_imx318.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_imx362.so:system/vendor/lib/libmmcamera_imx362.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_imx378.so:system/vendor/lib/libmmcamera_imx378.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_isp_abf40.so:system/vendor/lib/libmmcamera_isp_abf40.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_isp_bcc40.so:system/vendor/lib/libmmcamera_isp_bcc40.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_isp_be_stats44.so:system/vendor/lib/libmmcamera_isp_be_stats44.so \
@@ -1204,10 +1994,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov13850.so:system/vendor/lib/libmmcamera_ov13850.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov13850_eeprom.so:system/vendor/lib/libmmcamera_ov13850_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:system/vendor/lib/libmmcamera_ov13850_q13v06k.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov13855_qtech.so:system/vendor/lib/libmmcamera_ov13855_qtech.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov13855_qtech_eeprom.so:system/vendor/lib/libmmcamera_ov13855_qtech_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov13855_sunny.so:system/vendor/lib/libmmcamera_ov13855_sunny.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov13855_sunny_eeprom.so:system/vendor/lib/libmmcamera_ov13855_sunny_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov2281.so:system/vendor/lib/libmmcamera_ov2281.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov2680.so:system/vendor/lib/libmmcamera_ov2680.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov2685.so:system/vendor/lib/libmmcamera_ov2685.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov2685_scv3b4035.so:system/vendor/lib/libmmcamera_ov2685_scv3b4035.so \
@@ -1215,42 +2011,73 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov5645.so:system/vendor/lib/libmmcamera_ov5645.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov5670.so:system/vendor/lib/libmmcamera_ov5670.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov5670_sunny.so:system/vendor/lib/libmmcamera_ov5670_sunny.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov5675.so:system/vendor/lib/libmmcamera_ov5675.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov5675_eeprom.so:system/vendor/lib/libmmcamera_ov5675_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov5675_ofilm.so:system/vendor/lib/libmmcamera_ov5675_ofilm.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov5675_ofilm_eeprom.so:system/vendor/lib/libmmcamera_ov5675_ofilm_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov5695.so:system/vendor/lib/libmmcamera_ov5695.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov7251.so:system/vendor/lib/libmmcamera_ov7251.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov8856.so:system/vendor/lib/libmmcamera_ov8856.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov8858.so:system/vendor/lib/libmmcamera_ov8858.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ov8865.so:system/vendor/lib/libmmcamera_ov8865.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ovt_ov12a10_i.so:system/vendor/lib/libmmcamera_ovt_ov12a10_i.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ovt_ov12a10_i_eeprom.so:system/vendor/lib/libmmcamera_ovt_ov12a10_i_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ovt_ov5675_i.so:system/vendor/lib/libmmcamera_ovt_ov5675_i.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ovt_ov5675_i_eeprom.so:system/vendor/lib/libmmcamera_ovt_ov5675_i_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ovt_ov5675_ii.so:system/vendor/lib/libmmcamera_ovt_ov5675_ii.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ovt_ov5675_ii_eeprom.so:system/vendor/lib/libmmcamera_ovt_ov5675_ii_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_paaf_lib.so:system/vendor/lib/libmmcamera_paaf_lib.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_pdaf.so:system/vendor/lib/libmmcamera_pdaf.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_pdafcamif.so:system/vendor/lib/libmmcamera_pdafcamif.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so:system/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so:system/vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_quadracfa.so:system/vendor/lib/libmmcamera_quadracfa.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so:system/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k2l7.so:system/vendor/lib/libmmcamera_s5k2l7.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k3l2.so:system/vendor/lib/libmmcamera_s5k3l2.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k3l2_eeprom.so:system/vendor/lib/libmmcamera_s5k3l2_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k3l8.so:system/vendor/lib/libmmcamera_s5k3l8.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k3l8_eeprom.so:system/vendor/lib/libmmcamera_s5k3l8_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k3l8_mono.so:system/vendor/lib/libmmcamera_s5k3l8_mono.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k3l8_ofilm.so:system/vendor/lib/libmmcamera_s5k3l8_ofilm.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k3l8_ofilm_eeprom.so:system/vendor/lib/libmmcamera_s5k3l8_ofilm_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k3l8_ofilm_riva.so:system/vendor/lib/libmmcamera_s5k3l8_ofilm_riva.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k3l8_ofilm_riva_eeprom.so:system/vendor/lib/libmmcamera_s5k3l8_ofilm_riva_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k3m2xm.so:system/vendor/lib/libmmcamera_s5k3m2xm.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:system/vendor/lib/libmmcamera_s5k3m2xx.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k4h8.so:system/vendor/lib/libmmcamera_s5k4h8.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k3p3sm.so:system/vendor/lib/libmmcamera_s5k3p3sm.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k3p8sp.so:system/vendor/lib/libmmcamera_s5k3p8sp.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k5e8.so:system/vendor/lib/libmmcamera_s5k5e8.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k5e8_eeprom.so:system/vendor/lib/libmmcamera_s5k5e8_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k5e8_ofilm.so:system/vendor/lib/libmmcamera_s5k5e8_ofilm.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k5e8_ofilm_eeprom.so:system/vendor/lib/libmmcamera_s5k5e8_ofilm_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k5e8_ofilm_riva.so:system/vendor/lib/libmmcamera_s5k5e8_ofilm_riva.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k5e8_ofilm_riva_eeprom.so:system/vendor/lib/libmmcamera_s5k5e8_ofilm_riva_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k5e8_qtech_riva.so:system/vendor/lib/libmmcamera_s5k5e8_qtech_riva.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k5e8_qtech_riva_eeprom.so:system/vendor/lib/libmmcamera_s5k5e8_qtech_riva_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k5e8_sunny.so:system/vendor/lib/libmmcamera_s5k5e8_sunny.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_s5k5e8_sunny_eeprom.so:system/vendor/lib/libmmcamera_s5k5e8_sunny_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sony_imx214_eeprom.so:system/vendor/lib/libmmcamera_sony_imx214_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:system/vendor/lib/libmmcamera_sony_imx298_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sony_imx378_eeprom.so:system/vendor/lib/libmmcamera_sony_imx378_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sony_imx486_ii.so:system/vendor/lib/libmmcamera_sony_imx486_ii.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sony_imx486_ii_eeprom.so:system/vendor/lib/libmmcamera_sony_imx486_ii_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:system/vendor/lib/libmmcamera_sonyimx135_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:system/vendor/lib/libmmcamera_stillmore_lib.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:system/vendor/lib/libmmcamera_sunny_8865_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so:system/vendor/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so:system/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so:system/vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:system/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:system/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so \
-    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sw_tnr.so:system/vendor/lib/libmmcamera_sw_tnr.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:system/vendor/lib/libmmcamera_sw2d_lib.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_thread_services.so:system/vendor/lib/libmmcamera_thread_services.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:system/vendor/lib/libmmcamera_trueportrait_lib.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_truly_cma481_eeprom.so:system/vendor/lib/libmmcamera_truly_cma481_eeprom.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_truly_cmb433_eeprom.so:system/vendor/lib/libmmcamera_truly_cmb433_eeprom.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_tuning.so:system/vendor/lib/libmmcamera_tuning.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
@@ -1268,6 +2095,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmorpho_image_stab4.so:system/vendor/lib/libmorpho_image_stab4.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libmorpho_panorama_gp.so:system/vendor/lib/libmorpho_panorama_gp.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libois_lc898122.so:system/vendor/lib/libois_lc898122.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxAlacDecSw.so:system/vendor/lib/libOmxAlacDecSw.so \
@@ -1277,6 +2105,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
@@ -1469,6 +2298,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libmmcamera2_is.so:system/vendor/lib64/libmmcamera2_is.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libmmcamera2_stats_algorithm.so:system/vendor/lib64/libmmcamera2_stats_algorithm.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libmmcamera_cac3_lib.so:system/vendor/lib64/libmmcamera_cac3_lib.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
@@ -1476,8 +2306,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libmmQSM.so:system/vendor/lib64/libmmQSM.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libOmxAlacDec.so:system/vendor/lib64/libOmxAlacDec.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libOmxAlacDecSw.so:system/vendor/lib64/libOmxAlacDecSw.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libOmxAmrwbplusDec.so:system/vendor/lib64/libOmxAmrwbplusDec.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libOmxApeDec.so:system/vendor/lib64/libOmxApeDec.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libOmxApeDecSw.so:system/vendor/lib64/libOmxApeDecSw.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libOmxEvrcDec.so:system/vendor/lib64/libOmxEvrcDec.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libOmxMux.so:system/vendor/lib64/libOmxMux.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libOmxQcelp13Dec.so:system/vendor/lib64/libOmxQcelp13Dec.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib64/libOmxWmaDec.so:system/vendor/lib64/libOmxWmaDec.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
@@ -1552,13 +2389,12 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
-    libtime_genoff \
     libts_detected_face_hal \
     libts_face_beautify_hal \
+    libtime_genoff \
     QtiTelephonyService \
     TimeService \
     datastatusnotification \
-    embms \
     fastdormancy \
     shutdownlistener \
     CNEService \
@@ -1581,7 +2417,6 @@ PRODUCT_PACKAGES += \
     izat.xt.srv \
     qcrilhook \
     qti-telephony-common \
-    rcsimssettings \
     tcmclient \
     qdcm_calib_data_hx8394F_HD720p_video_BOE \
     qdcm_calib_data_ili9881c_HD720p_video_Tianma \

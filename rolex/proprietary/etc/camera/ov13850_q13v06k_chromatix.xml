@@ -88,7 +88,7 @@ special_mode_mask values:
       <ISPPreview>ov13850_q13v06k_snapshot</ISPPreview>
       <ISPSnapshot>ov13850_q13v06k_snapshot</ISPSnapshot>
       <ISPVideo>ov13850_q13v06k_video_full</ISPVideo>
-      <CPPPreview>ov13850_q13v06k_cpp_preview</CPPPreview>
+      <CPPPreview>ov13850_q13v06k_cpp_snapshot</CPPPreview>
       <CPPSnapshot>ov13850_q13v06k_cpp_snapshot</CPPSnapshot>
       <CPPVideo>ov13850_q13v06k_cpp_video_full</CPPVideo>
       <CPPLiveshot>ov13850_q13v06k_cpp_liveshot</CPPLiveshot>
@@ -100,7 +100,7 @@ special_mode_mask values:
       <ISPSnapshot>ov13850_q13v06k_preview</ISPSnapshot>
       <ISPVideo>ov13850_q13v06k_default_video</ISPVideo>
       <CPPPreview>ov13850_q13v06k_cpp_preview</CPPPreview>
-      <CPPSnapshot>ov13850_q13v06k_cpp_snapshot</CPPSnapshot>
+      <CPPSnapshot>ov13850_q13v06k_cpp_preview</CPPSnapshot>
       <CPPVideo>ov13850_q13v06k_cpp_video</CPPVideo>
       <CPPLiveshot>ov13850_q13v06k_cpp_preview</CPPLiveshot>
       <A3Preview>ov13850_q13v06k_default_preview_bu64297</A3Preview>
@@ -111,7 +111,7 @@ special_mode_mask values:
       <ISPSnapshot>ov13850_q13v06k_preview</ISPSnapshot>
       <ISPVideo>ov13850_q13v06k_default_video</ISPVideo>
       <CPPPreview>ov13850_q13v06k_cpp_preview</CPPPreview>
-      <CPPSnapshot>ov13850_q13v06k_cpp_snapshot</CPPSnapshot>
+      <CPPSnapshot>ov13850_q13v06k_cpp_preview</CPPSnapshot>
       <CPPVideo>ov13850_q13v06k_cpp_video</CPPVideo>
       <CPPLiveshot>ov13850_q13v06k_cpp_preview</CPPLiveshot>
       <A3Preview>ov13850_q13v06k_default_preview_bu64297</A3Preview>
