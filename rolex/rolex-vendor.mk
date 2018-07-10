@@ -265,7 +265,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/lib64/libOmxVpp.so:system/lib64/libOmxVpp.so \
     vendor/xiaomi/rolex/proprietary/lib64/libstagefright_soft_flacdec.so:system/lib64/libstagefright_soft_flacdec.so \
     vendor/xiaomi/rolex/proprietary/lib64/libvpplibrary.so:system/lib64/libvpplibrary.so \
-    vendor/xiaomi/rolex/proprietary/vendor/bin/healthd:system/bin/healthd \
     vendor/xiaomi/rolex/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/xiaomi/rolex/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/xiaomi/rolex/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
