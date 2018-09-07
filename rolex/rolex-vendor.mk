@@ -2106,6 +2106,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxSwVdec.so:system/vendor/lib/libOmxSwVdec.so \
+    vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxSwVencMpeg4.so:system/vendor/lib/libOmxSwVencMpeg4.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/xiaomi/rolex/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
@@ -2404,6 +2406,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     ims \
     imssettings \
+    libMpeg4SwEncoder \
     ConnectivityExt \
     QtiTelephonyServicelibrary \
     cneapiclient \
